@@ -12,11 +12,19 @@ declare var $: any;
 export class HomepageComponent implements AfterViewInit {
   ngAfterViewInit() {
     $('.owl-carousel').owlCarousel({
-      margin: 20,
-      autoplay: true,        
-      autoplayTimeout: 3000
-
+      items: 1,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      autoplayHoverPause: true,
+      nav: true,
+      dots: true,
+      animateOut: 'fadeOut',
+      animateIn: 'fadeIn',
+      navText: [
+        '<span class="owl-prev"><</span>',
+        '<span class="owl-next">></span>'
+      ]
     });
-    
   }
 }

@@ -25,16 +25,8 @@
               "src/assets"
               ],
             "styles": [
-              "src/styles.css",
-              "src/assets/css/aos.css",
-              "src/assets/css/bootstrap-datepicker.css",
-              "src/assets/css/bootstrap.min.css",
-              "src/assets/css/jquery-ui.css",
-              "src/assets/css/jquery.fancybox.min.css",
-              "src/assets/css/owl.carousel.min.css",
-              "src/assets/css/owl.theme.default.min.css",
-              "src/assets/css/style.css"
-                      ],
+
+            ],
             "scripts": []
           },
           "configurations": {

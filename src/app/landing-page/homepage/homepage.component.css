@@ -1,5 +1,6 @@
 .course-price{
     background-color: #a82444;
+    border-color: #a82444;
 }
 
 .site-menu .nav-link {
@@ -41,4 +42,29 @@
 
 .footer-section{
   height: 400px;
+}
+
+
+
+.nav-item .nav-link:hover {
+  color: #a82444 !important; 
+}
+
+.nav-item .dropdown-menu .dropdown-item:hover {
+  color: #a82444 !important; 
+}
+
+.p-4 .fa-graduation-cap ,.p-4 .fa-globe,.p-4 .fa-home,.p-4 .fa-book-open{
+  color: #ffffff !important;
+}
+
+.fa-arrow-right{
+  color: #a82444 !important; 
+}
+.text-primary {
+  color: #a82444 !important; /* Change this to your desired color */
+}
+
+.backgroundlight{
+  background-color: gainsboro;
 }

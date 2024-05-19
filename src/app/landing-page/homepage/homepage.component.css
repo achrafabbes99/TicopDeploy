@@ -1,0 +1,44 @@
+.course-price{
+    background-color: #a82444;
+}
+
+.site-menu .nav-link {
+    color: white !important; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+  }
+  
+  .site-menu .nav-link:hover {
+    color: #a82444 !important; 
+  }
+
+
+  
+  .site-menu .cta a.nav-link {
+    background-color: #a82444; /* Your desired background color */
+  }
+  .js-programming-color {
+    color: #a82444 !important;
+}
+
+.custom-icon-inner {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #f0f0f0; /* Change this to your desired color */
+}
+
+.custom-icon-inner.graduation-cap {
+  background-color: #a82444; /* Example color for graduation cap icon */
+}
+
+.custom-icon-inner.university {
+  background-color: #0066cc; /* Example color for university icon */
+}
+
+.footer-section{
+  height: 400px;
+}
